@@ -7,7 +7,9 @@ Water Quality Analysis Toolkit with Denver Basin Bedrock Aquifer ASR Example
 
 
 ### environment set-up to run asr_denverbasin_workflow.py
-1. set-up virtual environment
-2. install requirements.txt in virtual environment with
+1. copy repo locally
+2. create virtual environment, activate environment
+3. cd to local copy of repo
+4. install requirements.txt in environment with
      pip install -r requirements.txt
-4. cd to local copy of repo and run asr_denverbasin_workflow.py
+5. run asr_denverbasin_workflow.py, run time of 8 mins
