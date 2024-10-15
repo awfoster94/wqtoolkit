@@ -1,0 +1,22 @@
+Parameter,Code,CodeRaw,Unit,UnitDescription
+SiteID,site_no,site_no,none,none
+Temperature,r00010,R00010,remark,Remark code for P00010
+Temperature,p00010,P00010,Celsius,"Temperature, water, degrees Celsius"
+pH,r00403,R00403,remark,Remark code for P00400
+pH,p00403,P00403,mg/L,"pH, water, unfiltered, field, standard units"
+Alkalinity,r29801,R29801,remark,Remark code for P39086
+Alkalinity,p29801,P29801,mg/L,"Alkalinity, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate"
+Bicarbonate,r00453,R00453,remark,Remark code for P00453
+Bicarbonate,p00453,P00453,mg/L,"Bicarbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter"
+Calcium,r00915,R00915,remark,Remark code for P00915
+Calcium,p00915,P00915,mg/L,"Calcium, water, filtered, milligrams per liter"
+Chloride,r00940,R00940,remark,Remark code for P00940
+Chloride,p00940,P00940,mg/L,"Chloride, water, filtered, milligrams per liter"
+Magnesium,r00925,R00925,remark,Remark code for P00925
+Magnesium,p00925,P00925,mg/L,"Magnesium, water, filtered, milligrams per liter"
+Potassium,r00935,R00935,remark,Remark code for P00935
+Potassium,p00935,P00935,mg/L,"Potassium, water, filtered, milligrams per liter"
+Sodium,r00930,R00930,remark,Remark code for P00930
+Sodium,p00930,P00930,mg/L,"Sodium, water, filtered, milligrams per liter"
+Sulfate,r00945,R00945,remark,Remark code for P00945
+Sulfate,p00945,P00945,mg/L,"Sulfate, water, filtered, milligrams per liter"

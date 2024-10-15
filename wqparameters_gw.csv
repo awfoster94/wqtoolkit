@@ -1,0 +1,96 @@
+Parameter,Code,CodeRaw,Unit,UnitDescription
+SiteID,site_no,site_no,none,none
+Temperature,r00010,R00010,remark,Remark code for P00010
+Temperature,p00010,P00010,Celsius,"Temperature, water, degrees Celsius"
+Dissolved oxygen,r00300,R00300,remark,Remark code for P00300
+Dissolved oxygen,p00300,P00300,mg/L,"Dissolved oxygen, water, unfiltered, milligrams per liter"
+pH,r00400,R00400,remark,Remark code for P00400
+pH,p00400,P00400,mg/L,"pH, water, unfiltered, field, standard units"
+Specific conductance,r00095,R00095,remark,Remark code for P00095
+Specific conductance,p00095,P00095,mg/L,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius"
+Dissolved solids,r70300,R70300,remark,Remark code for P70300
+Dissolved solids,p70300,P70300,mg/L,"Dissolved solids dried at 180 degrees Celsius, water, filtered, milligrams per liter"
+Alkalinity,r39086,R39086,remark,Remark code for P39086
+Alkalinity,p39086,P39086,mg/L,"Alkalinity, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate"
+Bicarbonate,r00453,R00453,remark,Remark code for P00453
+Bicarbonate,p00453,P00453,mg/L,"Bicarbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter"
+Bromide,r71870,R71870,remark,Remark code for P71870
+Bromide,p71870,P71870,mg/L,"Bromide, water, filtered, milligrams per liter"
+Calcium,r00915,R00915,remark,Remark code for P00915
+Calcium,p00915,P00915,mg/L,"Calcium, water, filtered, milligrams per liter"
+Chloride,r00940,R00940,remark,Remark code for P00940
+Chloride,p00940,P00940,mg/L,"Chloride, water, filtered, milligrams per liter"
+Fluoride,r00950,R00950,remark,Remark code for P00950
+Fluoride,p00950,P00950,mg/L,"Fluoride, water, filtered, milligrams per liter"
+Magnesium,r00925,R00925,remark,Remark code for P00925
+Magnesium,p00925,P00925,mg/L,"Magnesium, water, filtered, milligrams per liter"
+Potassium,r00935,R00935,remark,Remark code for P00935
+Potassium,p00935,P00935,mg/L,"Potassium, water, filtered, milligrams per liter"
+Silica,r00955,R00955,remark,Remark code for P00955
+Silica,p00955,P00955,mg/L,"Silica, water, filtered, milligrams per liter"
+Sodium,r00930,R00930,remark,Remark code for P00930
+Sodium,p00930,P00930,mg/L,"Sodium, water, filtered, milligrams per liter"
+Sulfate,r00945,R00945,remark,Remark code for P00945
+Sulfate,p00945,P00945,mg/L,"Sulfate, water, filtered, milligrams per liter"
+Ammonia,r00608,R00608,remark,Remark code for P00608
+Ammonia,p00608,P00608,mg/L as N,"Ammonia, water, filtered, milligrams per liter as nitrogen"
+Ammonia plus organic N,r00623,R00623,remark,Remark code for P00623
+Ammonia plus organic N,p00623,P00623,mg/L as N,"Ammonia plus organic nitrogen, water, filtered, milligrams per liter as nitrogen"
+Nitrite,r00613,R00613,remark,Remark code for P00613
+Nitrite,p00613,P00613,mg/L as N,"Nitrite, water, filtered, milligrams per liter as nitrogen"
+Nitrate plus nitrite,r00631,R00631,remark,Remark code for P00631
+Nitrate plus nitrite,p00631,P00631,mg/L as N,"Nitrate plus nitrite, water, filtered, milligrams per liter as nitrogen"
+Total nitrogen,r62854,R62854,remark,Remark code for P62854
+Total nitrogen,p62854,P62854,mg/L as N,"Total nitrogen (nitrate + nitrite + ammonia + organic-N), water, filtered, analytically determined, milligrams per liter"
+Orthophosphate,r00671,R00671,remark,Remark code for P00671
+Orthophosphate,p00671,P00671,mg/L as P,"Orthophosphate, water, filtered, milligrams per liter as phosphorus"
+DOC,r00681,R00681,remark,Remark code for P00681
+DOC,p00681,P00681,mg/L,"Organic carbon, water, filtered, milligrams per liter"
+Aluminum,r01106,R01106,remark,Remark code for P01106
+Aluminum,p01106,P01106,ug/L,"Aluminum, water, filtered, micrograms per liter"
+Antimony,r01095,R01095,remark,Remark code for P01095
+Antimony,p01095,P01095,ug/L,"Antimony, water, filtered, micrograms per liter"
+Arsenic,r01000,R01000,remark,Remark code for P01000
+Arsenic,p01000,P01000,ug/L,"Arsenic, water, filtered, micrograms per liter"
+Barium,r01005,R01005,remark,Remark code for P01005
+Barium,p01005,P01005,ug/L,"Barium, water, filtered, micrograms per liter"
+Beryllium,r01010,R01010,remark,Remark code for P01010
+Beryllium,p01010,P01010,ug/L,"Beryllium, water, filtered, micrograms per liter"
+Boron,r01020,R01020,remark,Remark code for P01020
+Boron,p01020,P01020,ug/L,"Boron, water, filtered, micrograms per liter"
+Cadmium,r01025,R01025,remark,Remark code for P01025
+Cadmium,p01025,P01025,ug/L,"Cadmium, water, filtered, micrograms per liter"
+Chromium,r01030,R01030,remark,Remark code for P01030
+Chromium,p01030,P01030,ug/L,"Chromium, water, filtered, micrograms per liter"
+Cobalt,r01035,R01035,remark,Remark code for P01035
+Cobalt,p01035,P01035,ug/L,"Cobalt, water, filtered, micrograms per liter"
+Copper,r01040,R01040,remark,Remark code for P01040
+Copper,p01040,P01040,ug/L,"Copper, water, filtered, micrograms per liter"
+Iron,r01046,R01046,remark,Remark code for P01046
+Iron,p01046,P01046,ug/L,"Iron, water, filtered, micrograms per liter"
+Lead,r01049,R01049,remark,Remark code for P01049
+Lead,p01049,P01049,ug/L,"Lead, water, filtered, micrograms per liter"
+Lithium,r01130,R01130,remark,Remark code for P01130
+Lithium,p01130,P01130,ug/L,"Lithium, water, filtered, micrograms per liter"
+Manganese,r01056,R01056,remark,Remark code for P01056
+Manganese,p01056,P01056,ug/L,"Manganese, water, filtered, micrograms per liter"
+Molybdenum,r01060,R01060,remark,Remark code for P01060
+Molybdenum,p01060,P01060,ug/L,"Molybdenum, water, filtered, micrograms per liter"
+Nickel,r01065,R01065,remark,Remark code for P01065
+Nickel,p01065,P01065,ug/L,"Nickel, water, filtered, micrograms per liter"
+Selenium,r01145,R01145,remark,Remark code for P01145
+Selenium,p01145,P01145,ug/L,"Selenium, water, filtered, micrograms per liter"
+Silver,r01075,R01075,remark,Remark code for P01075
+Silver,p01075,P01075,ug/L,"Silver, water, filtered, micrograms per liter"
+Strontium,r01080,R01080,remark,Remark code for P01080
+Strontium,p01080,P01080,ug/L,"Strontium, water, filtered, micrograms per liter"
+Thallium,r01057,R01057,remark,Remark code for P01057
+Thallium,p01057,P01057,ug/L,"Thallium, water, filtered, micrograms per liter"
+Uranium,r22703,R22703,remark,Remark code for P22703
+Uranium,p22703,P22703,ug/L,"Uranium (natural), water, filtered, micrograms per liter"
+Vanadium,r01085,R01085,remark,Remark code for P01085
+Vanadium,p01085,P01085,ug/L,"Vanadium, water, filtered, micrograms per liter"
+Zinc,r01090,R01090,remark,Remark code for P01090
+Zinc,p01090,P01090,ug/L,"Zinc, water, filtered, micrograms per liter"
+Radon-222,r82303,R82303,remark,Remark code for P82303
+Radon-222,p82303,P82303,pCi/L,"Radon-222, water, unfiltered, picocuries per liter"
