@@ -1134,7 +1134,9 @@ def replace_extra_lettering(text):
     updated_text_9 = re.sub(r'UR1', 'URE 1', updated_text_8)
     updated_text_10 = re.sub(r'UR2', 'URE 2', updated_text_9)
     updated_text_11 = re.sub(r'FAC1', 'FACE 1', updated_text_10)
-    return updated_text_11
+    updated_text_12 = re.sub('TITLM', 'TITLE M', updated_text_11) 
+    updated_text_13 = re.sub('TITLEq', 'TITLE Eq', updated_text_12)
+    return updated_text_13
 
 # Function to perform an operation if the object is a string
 def process_if_string(obj):
