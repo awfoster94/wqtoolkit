@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Paschke, S.S.</origin>
+        <origin>Oliver, N.B.</origin>
+        <pubdate>2020</pubdate>
+        <title>Spatial extent of the Laramie-Fox Hills aquifer of the Denver Basin aquifer system, Colorado</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Data Release</sername>
+          <issue>unknown</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9CHGG0V</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Paschke, S.S., editor</origin>
+            <pubdate>2011</pubdate>
+            <title>Groundwater Availability of the Denver Basin Aquifer System, Colorado</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Professional Paper</sername>
+              <issue>PP 1770</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>274 p.</othercit>
+            <onlink>https://doi.org/10.3133/pp1770</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon dataset is the extent of the Laramie-Fox Hills aquifer (model layer 12) of the Denver Basin aquifer system, Colorado. Previously mapped extents of Denver Basin aquifers and confining units as defined by Colorado Senate Bill 5 (SB5) (Colorado Division of Water Resources, 1985) and mapped by VanSlyke and others (1988a; 1988b; 1988c; and 1988d) were transmitted to the U.S. Geological Survey from Brian Ahrens, Colorado Division of Water Resources, May 4, 2005, as compressed .zip files downloaded from an ftp server (Brian Ahrens, Colorado Division of Water Resources, written commun., 2005). The SB5 extents were edited and updated by the U.S. Geological Survey, primarily along the western side of the basin, to incorporate more recent mapping by Robson and others (1998).</abstract>
+      <purpose>The purpose of these datasets is to define the lateral extents of the hydrostratigraphic layers simulated in a three-dimensional groundwater-flow model of the Denver Basin aquifer system (Paschke, 2011).</purpose>
+      <supplinf>The Denver Basin aquifer system is composed of Tertiary and Cretaceous sandstone bedrock aquifers that occur in the uppermost layers of the structural Denver Basin above the Cretaceous Pierre Shale confining layer. Colorado State legislation administrating the Denver Basin recognizes and defines four primary bedrock aquifers, two of which are subdivided into upper and lower units (Romero, 1976; Robson, 1987; Graham and VanSlyke, 2004). From oldest to youngest (bottom to top), the four primary units are the Laramie-Fox Hills aquifer, the Arapahoe aquifer, the Denver aquifer, and the Dawson aquifer. In parts of the basin, confining units further divide the Arapahoe and Dawson aquifers into upper and lower units. Thus, the six Denver Basin bedrock aquifers and five intervening confining units used to develop geologic layers for the groundwater flow model are, from oldest to youngest, the Laramie-Fox Hills aquifer (KLF), Laramie confining unit (KLC), lower Arapahoe aquifer (LKA), Arapahoe confining unit (KAC), upper Arapahoe aquifer (UKA), Denver lower confining unit (TKDLC), Denver aquifer (TKD),  Denver upperconfining unit (TKDUC), lower Dawson aquifer (LTDW), Dawson confining unit (TDWC), and upper Dawson aquifer (UTKD). The synclinal structure of the Denver Basin causes the bedrock aquifer units to crop out in a ring pattern where the oldest rocks of the Laramie-Fox Hills aquifer crop out around the outer margins of the basin and the youngest rocks of the Dawson aquifer crop out in the center of the basin. Confined groundwater conditions generally are found in the bedrock aquifers where they are overlain by younger units, and unconfined groundwater conditions are generally found in outcrop areas. 
+
+The hydrogeologic framework for the Denver Basin groundwater model consists of GIS data sets, which define the lateral extent and base altitude of each aquifer and confining unit represented in the model. For the aquifer units, maps of silt-plus-sand thickness also were developed and used as multipliers for hydraulic conductivity and specific yield in the groundwater flow model. This study modified maps showing the extent of aquifers and confining units published by the CDWR (VanSlyke and others, 1988a, 1988b, 1988c, 1988d) along the western basin margin to include geologic contacts mapped by Robson and others (1998), and the results defined the extent of active cells for each model layer. Topographic altitude data for land surface and streamflow routing were derived from the 30-meter-resolution National Elevation Dataset (NED) (U.S. Geological Survey, 1999).
+
+Maps of the altitude of the base of the bedrock aquifers and confining units and the silt-plus-sand thickness were generated in ArcGIS 9.2 (Environmental Systems Research Institute, Inc., 1999-2004) from the CDWR Denver Basin geophysical log database (Brian Ahrens, Colorado Division of Water Resources, written commun., 2003) using ordinary kriging and inverse-distance weighed (IDW) methods, depending on which method resulted in the least error. The CDWR geophysical-log database contains top and bottom elevations for each of the six bedrock aquifers (geophysical log "picks") for about 4,400 geophysical logs. The geophysical log picks were processed into ArcGIS point-data shapefiles representing the base altitude for each of the six bedrock aquifers and five confining units, and the altitude data points were contoured in ArcGIS.  Contouring methods and model-fitting parameters are presented in Table A1 of Paschke (2011). The resulting point data and vector contour maps are listed in Table A2 of Paschke (2011) and are published herein as GIS datasets.  The  datasets are updated versions of the base-altitude maps published by the CDWR (VanSlyke and others, 1988a, 1988b, 1988c, 1988d), and interpretations of the data are discussed in the "Hydrogeologic Framework" section of Professional Paper 1770 Chapter A (Paschke, 2011). 
+
+For many logs in the CDWR geophysical-log database, a silt-plus-sand thickness value was recorded for each bedrock aquifer. These silt-plus-sand-thickness values also were processed into ArcGIS point-data shapefiles, and the data points were contoured using either an ordinary kriging method or an IDW method available in ArcGIS, depending on which method resulted in the least error. The resulting point data and vector contour maps are published herein as GIS datasets and represent updated versions of the silt-plus-sand maps published by the CDWR (VanSlyke and others, 1988a, 1988b, 1988c, 1988d). Percent silt-plus-sand-thickness values were calculated from the silt-plus-sand-thickness point data for each of the six bedrock aquifers as the silt-plus-sand thickness divided by the total layer thickness, and the percent silt-plus-sand-thickness values were contoured using an IDW method available in ArcGIS. Averaged percent silt-plus-sand values for each model grid cell were used as multiplier arrays for hydraulic-conductivity and specific-yield values in the groundwater flow model as described in the "Hydrogeologic-Unit Properties" section of Professional Paper 1770 Chapter C (Paschke, 2011). 
+
+References:
+Graham, Glenn, and VanSlyke, George, 2004, Development of the regulatory framework for Denver Basin aquifers: The Mountain Geologist, v. 41, no. 4, p. 153-160. 
+Paschke, S.S., ed., 2011, Groundwater Availability of the Denver Basin aquifer system, Colorado, U.S. Geological Survey Professional Paper 1770, 274 p. 
+Robson, S.G., 1987, Bedrock aquifers in the Denver Basin, Colorado-A quantitative water-resources appraisal: U.S. Geological Survey Professional Paper 1257, 73 p. 
+Robson, S.G., Van Slyke, G., and Graham, G., 1998, Structure, outcrop, and subcrop of the bedrock aquifers along the western margin of the Denver Basin, Colorado: U.S. Geological Survey Hydrologic Investigations Atlas HA-742, scale 1:50,000, 5 sheets. 
+Romero, J.C., 1976, Ground-water resources of the bedrock aquifers of the Denver Basin: Colorado Division of Water Resources Report, 109 p. 
+VanSlyke, G., Romero, J.C., Moravec, G., and Wacinski, A, 1988a, Geologic structure, sandstone/siltstone isolith, and location of non-tributary ground water for the Dawson aquifer, Denver Basin, Colorado: Colorado Division of Water Resources, Denver Basin Atlas no. 1 (DBA-1), 3 plates. 
+VanSlyke, G., Romero, J.C., Moravec, G., and Wacinski, A, 1988b, Geologic structure, sandstone/siltstone isolith, and location of non-tributary ground water for the Denver aquifer, Denver Basin, Colorado: Colorado Division of Water Resources, Denver Basin Atlas no. 2 (DBA-2), 3 plates. 
+VanSlyke, G., Romero, J.C., Moravec, G., and Wacinski, A, 1988c, Geologic structure, sandstone/siltstone isolith, and location of non-tributary ground water for the Arapahoe aquifer, Denver Basin, Colorado: Colorado Division of Water Resources, Denver Basin Atlas no. 3 (DBA-3), 3 plates. 
+VanSlyke, G., Romero, J.C., Moravec, G., and Wacinski, A, 1988d, Geologic structure, sandstone/siltstone isolith, and location of non-tributary ground water for the Laramie-Fox Hills aquifer, Denver Basin, Colorado: Colorado Division of Water Resources, Denver Basin Atlas no. 4 (DBA-4), 3 plates.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-105.2443</westbc>
+        <eastbc>-103.6526</eastbc>
+        <northbc>40.4226</northbc>
+        <southbc>38.6663</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>inland waters</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>Laramie-Fox Hills aquifer</themekey>
+        <themekey>spatial extent</themekey>
+        <themekey>Denver Basin aquifer system</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Denver Basin</placekey>
+        <placekey>Colorado</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>Cretaceous</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>1988-2003</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None. Please see “Distribution Info” for details.</accconst>
+    <useconst>None. Users are advised to read the dataset's metadata  thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Suzanne Paschke</cntper>
+          <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+        </cntperp>
+        <cntpos>Supervisory Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 415, W 6th Ave Kipling St</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-6904</cntvoice>
+        <cntfax>303-236-4912</cntfax>
+        <cntemail>spaschke@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://water.usgs.gov/GIS/browse/LaramieFoxHillsAq.jpg</browsen>
+      <browsed>location of study area</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>Paschke, S.S. ed., 2011, Groundwater availability of the Denver Basin aquifer system, Colorado: U.S. Geological Survey Professional Paper 1770, 274 p.</datacred>
+    <secinfo>
+      <secsys>FGDC</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1 (Build 4959) </native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy is assumed to be at least that of the published accuracy of the smallest-scale geologic map used to generate this feature class, the 1:200,000 map of VanSlyke and others (1988). No checks for accuracy were performed on this dataset.</attraccr>
+    </attracc>
+    <logic>To ensure data consistency, all extents for aquifers and confining units were derived in the same way and using the same published sources.</logic>
+    <complete>Features in the dataset are from digital data of VanSlyke and others (1988d), which were revised along the western boundary of the unit using the more recent, finer-scale mapping of Robson and others (1998).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Based on National Map Accuracy Standards for published maps having a scale of 1:200,000  or smaller, no more than 10 percent of the points plotted on the map  have a horizontal accuracy less than 1/50 inch (1:200,000 = 1 inch:16,667 feet; 16,667 / 50 = 333 feet).</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>VanSlyke, G., Romero, J.C., Moravec, G., and Wacinski, A.</origin>
+            <pubdate>19980101</pubdate>
+            <title>Geologic structure, sandstone/siltstone isolith, and location of non-tributary ground water for the Laramie-Fox Hills aquifer, Denver Basin, Colorado</title>
+            <edition>Denver Basin Atlas no. 4 (DBA-4)</edition>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Denver Basin Atlas no. 4 (DBA-4)</sername>
+              <issue>No. 4</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>Colorado Division of Water Resources</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>200000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19980101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>VanSlyke and others (1988d)</srccitea>
+        <srccontr>Initial boundary for unit extent.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>19980101</pubdate>
+            <title>Structure, outcrop, and subcrop of the bedrock aquifers along the western margin of the Denver Basin, Colorado</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Hydrologic Atlast</sername>
+              <issue>742</issue>
+            </serinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>50000</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19980101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Robson and others (1998)</srccitea>
+        <srccontr>Used to refine western boundary of this unit</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digital files of previously mapped extents of Denver Basin aquifers and  confining units by VanSlyke and others (1988) were obtained from the Colorado Division of Water Resources (Brian Ahrens, Colorado Division of Water Resources, written commun., 2003). The western extent of the aquifer system was edited in Esri ArcMap  to incorporate published mapping of Robson and others (1998).</procdesc>
+        <procdate>20110101</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Suzanne S. Paschke</cntper>
+            </cntorgp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing</addrtype>
+              <address>Denver Federal Center MS415 PO Box 25046</address>
+              <city>Lakewood</city>
+              <state>CO</state>
+              <postal>80225</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>303-236-6904</cntvoice>
+            <cntfax>303-236-4912</cntfax>
+            <cntemail>spaschke@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>0502</spcszone>
+            <lambertc>
+              <stdparll>38.45</stdparll>
+              <stdparll>39.75</stdparll>
+              <longcm>-105.5</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>3000000.000316083</feast>
+              <fnorth>999999.999996</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North_American_Datum_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PP1770_LaramieFoxHillsAq_extentpoly</enttypl>
+        <enttypd>Polygon for the outermost extent of the Laramie-Fox Hills aquifer, Denver Basin, Colorado</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv><udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+        <attrdef>Polygon identifier</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The only attributes included in this dataset are those automatically generated by ESRI software. The FID, is an internally stored feature identifier. The SHAPE field stores the geometry of the entities in the feature class, in this case, polylines. The ID field is an ESRI unique identifier from a previous shapefile and has the same contents as the present FID field.</eaover>
+      <eadetcit>None.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the  U.S. Government.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>compressed file of shapefile documents for Laramie-Fox Hills aquifer</formname>
+          <transize>0.02</transize>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/P9CHGG0V</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None. This dataset is provided by the U.S. Geological Survey as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20201209</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Suzanne Paschke</cntper>
+          <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+        </cntperp>
+        <cntpos>Supervisory Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 415, W 6th Ave Kipling St</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-6904</cntvoice>
+        <cntfax>303-236-4912</cntfax>
+        <cntemail>spaschke@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the USGS.</metuc>
+    <metsi>
+      <metscs>FGDC</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+</metadata>
