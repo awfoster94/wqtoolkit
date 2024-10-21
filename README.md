@@ -13,3 +13,4 @@ Water Quality Analysis Toolkit with Denver Basin Bedrock Aquifer ASR Example
 4. install requirements.txt in environment with
      pip install -r requirements.txt
 5. run asr_denverbasin_workflow.py, run time of 8 mins
+6. NOTE: z-scaler will interfere with the water quality data pull from NWIS
